@@ -1,0 +1,25 @@
+{
+  "name": "useclickaway",
+  "version": "1.0.0",
+  "description": "a custom React effect for clicking away to close dropdowns",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsjoeio/useClickAway.git"
+  },
+  "keywords": [
+    "clickaway",
+    "react",
+    "custom",
+    "hook"
+  ],
+  "author": "JavaScript Joe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsjoeio/useClickAway/issues"
+  },
+  "homepage": "https://github.com/jsjoeio/useClickAway#readme"
+}
