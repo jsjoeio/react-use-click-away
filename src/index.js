@@ -28,7 +28,7 @@ function useClickAwayEffect ({ mainAppId, open, setOpen, containerId, toggleId =
     // Check to make sure document is defined
     if (document) {
     // Grab the main container for the app
-      const mainContainer = document.querySelector(mainAppId)
+      const mainContainer = document.querySelector(`#${mainAppId}`)
       // Make sure mainContainer is defined, or it throws an error in the test
       if (mainContainer) {
         if (open) {
@@ -39,7 +39,7 @@ function useClickAwayEffect ({ mainAppId, open, setOpen, containerId, toggleId =
       }
     }
     return () => {
-      document.querySelector(mainAppId).removeEventListener('click', handleClose, false)
+      document.querySelector(`#${mainAppId}`).removeEventListener('click', handleClose, false)
     }
   }, [open])
 }
