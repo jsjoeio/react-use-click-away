@@ -1,6 +1,6 @@
 {
   "name": "useclickaway",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a custom React effect for clicking away to close dropdowns",
   "scripts": {
     "build": "webpack",
