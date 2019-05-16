@@ -15,14 +15,13 @@
   "keywords": [
     "clickaway",
     "react",
-    "custom",
     "hook"
   ],
-  "author": "JavaScript Joe",
+  "contributors": ["JavaScript Joe", "Tad Scritchfield"],
   "license": "MIT",
   "peerDependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
   },
   "bugs": {
     "url": "https://github.com/jsjoeio/useClickAway/issues"
