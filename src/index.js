@@ -8,7 +8,7 @@ import { useEffect } from 'react'
  **/
 function useClickAway ({ reactAppId, clickable, open, setOpen }) {
   if (clickable.length < 1) throw Error('`clickable` property must contain at least one element id. Try passing an array of element ids to useClickAway({ clickable: [\'element1\', \'element2\'] })')
-  if (clickable.some(e => e.contains('#'))) console.warn('Element ids in `clickable` array should not be prefixed with a `#` symbol.')
+  if (clickable.some(e => e.includes('#'))) console.warn('Element ids in `clickable` array should not be prefixed with a `#` symbol.')
 
   function handleClick (e) {
     if (e && (e.path || e.composedPath())) {
