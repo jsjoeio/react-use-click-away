@@ -1,9 +1,9 @@
 import { useEffect } from 'react'
 
 /**
- * @param {object} options - Boolean for open state of menu/container
- * @param {function} setOpen - function that flips the open Boolean
- * @param {[string]} containerId - pass the containerId so it doesn't close when user clicks inside it
+ * @param {object} options - The options object expects the following properties
+ * @property {string} reactAppId - the id of the react app (i.e. 'root')
+ * @property {array} clickable - an array of element ids which can be clicked which won't close the menus/containers
  * @description - this function will register a click listener to the document to help you click away to close menus/containers
  **/
 function useClickAway ({ reactAppId, clickable, open, setOpen }) {
@@ -16,7 +16,7 @@ function useClickAway ({ reactAppId, clickable, open, setOpen }) {
       const path = e.path || e.composedPath()
       // e.path returns an array of the elements in the path of the click
       for (let i = 0; i < path.length; i++) {
-        // if the click is within the element with the containerId or toggleId, then let the click event continue
+        // If the elements within the click path have any clickable elements, then let the click event continue
         if (clickable.includes(path[i].id)) {
           return
         }
