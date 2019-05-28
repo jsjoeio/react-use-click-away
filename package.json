@@ -11,7 +11,7 @@
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jsjoeio/useClickAway.git"
+    "url": "git+https://github.com/jsjoeio/react-use-click-away.git"
   },
   "keywords": [
     "clickaway",
@@ -25,9 +25,9 @@
     "react-dom": ">=16.8.0"
   },
   "bugs": {
-    "url": "https://github.com/jsjoeio/useClickAway/issues"
+    "url": "https://github.com/jsjoeio/react-use-click-away/issues"
   },
-  "homepage": "https://github.com/jsjoeio/useClickAway#readme",
+  "homepage": "https://github.com/jsjoeio/react-use-click-away#readme",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.4",
