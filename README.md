@@ -1,17 +1,10 @@
-# react-use-click-away
-
-<!-- PROJECT SHIELDS -->
-[![Build Status][build-shield]]()
-[![GitHub contributors](https://img.shields.io/github/contributors/jsjoeio/react-use-click-away.svg)](https://github.com/jsjoeio/react-use-click-away/graphs/contributors/)
-[![MIT License][license-shield]](https://github.com/jsjoeio/react-use-click-away/blob/master/LICENSE)
+<h1 align="center">react-use-click-away</h1>
 
 <br />
 <p align="center">
   <a href="https://www.joypixels.com/emoji/1f5b1">
     <img src="https://raw.githubusercontent.com/jsjoeio/react-use-click-away/master/mouse.png" alt="Logo" width="128" height="128">
   </a>
-
-  <h3 align="center">react-use-click-away</h3>
 
   <p align="center">
     a custom React effect for clicking away to close dropdowns
@@ -27,6 +20,13 @@
   </p>
 </p>
 
+<hr>
+
+<!-- PROJECT SHIELDS -->
+![npm version](https://img.shields.io/npm/v/react-use-click-away.svg)
+![npm](https://img.shields.io/npm/dm/react-use-click-away.svg)
+[![GitHub contributors](https://img.shields.io/github/contributors/jsjoeio/react-use-click-away.svg)](https://github.com/jsjoeio/react-use-click-away/graphs/contributors/)
+![GitHub](https://img.shields.io/github/license/jsjoeio/react-use-click-away.svg)
 
 
 <!-- TABLE OF CONTENTS -->
