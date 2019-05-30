@@ -1,11 +1,11 @@
 {
   "name": "react-use-click-away",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a custom React effect for clicking away to close dropdowns",
   "scripts": {
     "build": "webpack",
     "dev": "webpack --watch",
-    "prepare" : "npm run build && npm version patch",
+    "prepare": "npm run build && npm version patch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "main": "./lib/index.js",
@@ -18,7 +18,10 @@
     "react",
     "hook"
   ],
-  "contributors": ["JavaScript Joe", "Tad Scritchfield"],
+  "contributors": [
+    "JavaScript Joe",
+    "Tad Scritchfield"
+  ],
   "license": "MIT",
   "peerDependencies": {
     "react": ">=16.8.0",
