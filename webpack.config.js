@@ -5,6 +5,9 @@ const libraryName = pkg.name
 module.exports = {
   target: 'web',
   mode: 'production',
+  optimization: {
+    minimize: false
+  },
   entry: './src/index.js',
   output: {
     path: path.resolve('./lib'),
