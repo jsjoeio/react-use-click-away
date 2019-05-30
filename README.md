@@ -1,5 +1,4 @@
 <h1 align="center">react-use-click-away</h1>
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 <br />
 <p align="center">
@@ -28,6 +27,7 @@
 ![npm](https://img.shields.io/npm/dm/react-use-click-away.svg)
 [![GitHub contributors](https://img.shields.io/github/contributors/jsjoeio/react-use-click-away.svg)](https://github.com/jsjoeio/react-use-click-away/graphs/contributors/)
 ![GitHub](https://img.shields.io/github/license/jsjoeio/react-use-click-away.svg)
+
 
 
 <!-- TABLE OF CONTENTS -->
@@ -91,12 +91,10 @@ const API_KEY = 'ENTER YOUR API';
 
 ## Contributors
 
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 <table><tr><td align="center"><a href="http://tadscritchfield.com"><img src="https://avatars0.githubusercontent.com/u/11529600?v=4" width="100px;" alt="Tad Scritchfield"/><br /><sub><b>Tad Scritchfield</b></sub></a><br /><a href="https://github.com/jsjoeio/react-use-click-away/commits?author=tscritch" title="Code">💻</a> <a href="#ideas-tscritch" title="Ideas, Planning, & Feedback">🤔</a> <a href="#review-tscritch" title="Reviewed Pull Requests">👀</a></td><td align="center"><a href="https://joeprevite.com/"><img src="https://avatars3.githubusercontent.com/u/3806031?v=4" width="100px;" alt="JavaScript Joe"/><br /><sub><b>JavaScript Joe</b></sub></a><br /><a href="https://github.com/jsjoeio/react-use-click-away/commits?author=jsjoeio" title="Code">💻</a> <a href="#ideas-jsjoeio" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/jsjoeio/react-use-click-away/commits?author=jsjoeio" title="Documentation">📖</a> <a href="#example-jsjoeio" title="Examples">💡</a></td></tr></table>
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-Contributions are what make the open source community such
 
 ## License
 
