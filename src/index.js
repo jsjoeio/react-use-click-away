@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 
 /**
+ * @module react-use-click-away
  * @param {object} options - The options object expects the following properties
  * @property {string} reactAppId - the id of the react app (i.e. 'root')
  * @property {array} clickable - an array of element ids which can be clicked which won't close the menus/containers
