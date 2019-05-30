@@ -22,7 +22,6 @@
 
 <hr>
 
-<!-- PROJECT SHIELDS -->
 ![npm version](https://img.shields.io/npm/v/react-use-click-away.svg)
 ![npm](https://img.shields.io/npm/dm/react-use-click-away.svg)
 [![GitHub contributors](https://img.shields.io/github/contributors/jsjoeio/react-use-click-away.svg)](https://github.com/jsjoeio/react-use-click-away/graphs/contributors/)
@@ -53,40 +52,53 @@ In modern web applications, it is difficult to build a dropdown or other contain
 Similar to `useEffect`, you call it within a Hook component and it will help you hide and show your components based on where you click within your app.
 
 ### Example
-here is how yo udo it...
+Using it in your application might look something like this:
 
 ```javascript
-yadda
+import React, { useState } from "react"
+import useClickAway from "react-use-click-away"
+
+function NavBar () {
+  const [open, setOpen] = useState(false)
+
+  useClickAway({
+    open,
+    setOpen,
+    reactAppId: "my-react-app",
+    clickable: ["navbar"]
+  })
+
+  return (
+    <nav id='navbar'>
+      <span id='toggle' onClick={() => setOpen(!open)}>Menu</span>
+        <div className={`inner-menu ${open ? "active" : ""}`}>
+          <ul className="nav-list">
+            <li>Page 1</li>
+            <li>Page 2</li>
+          </ul>
+        </div>
+    </nav>
+  )
+}
+
+export default NavBar
 ```
+
+You call `useClickAway` inside your function component and pass it an object with the following properties:
+- `open`: the state value for the dropdown or container (boolean)
+- `setOpen`: the corresponding hook which updates `open` (function)
+- `reactAppId`: the id on the div that wraps your entire app (string)
+- `clickable`: the elements that are clickable (i.e. clicking them won't close the dropdown or container) (array of strings)
 
 ## Installation
 
-How do I add this to my project
-npm
-yarn
+You can install it using either of the following:
+```bash
+# Using npm
+npm install --save react-use-click-away
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-```sh
-git clone https:://github.com/your_username_/Project-Name.git
-```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
+# Using yarn
+yarn add --save react-use-click-away
 ```
 
 ## Contributors
@@ -101,5 +113,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Acknowledgements
+* [Digital Air Strike](https://digitalairstrike.com/)
 * [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
+* [@othneildrew's README template](https://github.com/othneildrew/Best-README-Template)
+* [All Contributors](https://allcontributors.org/)
