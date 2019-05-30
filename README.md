@@ -93,6 +93,7 @@ const API_KEY = 'ENTER YOUR API';
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
+<table><tr><td align="center"><a href="http://tadscritchfield.com"><img src="https://avatars0.githubusercontent.com/u/11529600?v=4" width="100px;" alt="Tad Scritchfield"/><br /><sub><b>Tad Scritchfield</b></sub></a><br /><a href="https://github.com/jsjoeio/react-use-click-away/commits?author=tscritch" title="Code">💻</a> <a href="#ideas-tscritch" title="Ideas, Planning, & Feedback">🤔</a> <a href="#review-tscritch" title="Reviewed Pull Requests">👀</a></td></tr></table>
 <table><tr><td align="center"><a href="https://joeprevite.com/"><img src="https://avatars3.githubusercontent.com/u/3806031?v=4" width="100px;" alt="JavaScript Joe"/><br /><sub><b>JavaScript Joe</b></sub></a><br /><a href="https://github.com/jsjoeio/react-use-click-away/commits?author=jsjoeio" title="Code">💻</a> <a href="#ideas-jsjoeio" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/jsjoeio/react-use-click-away/commits?author=jsjoeio" title="Documentation">📖</a> <a href="#example-jsjoeio" title="Examples">💡</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
