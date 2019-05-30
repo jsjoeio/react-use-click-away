@@ -1,13 +1,13 @@
 import { useEffect } from 'react'
 
 /**
+ * Registers a click listener to the document to help you click away to close dropdowns/containers
  * @module react-use-click-away
  * @param {object} options - The options object expects the following properties
  * @property {string} reactAppId - the id of the react app (i.e. 'root')
  * @property {array} clickable - an array of element ids which can be clicked which won't close the menus/containers
- * @description - this function will register a click listener to the document to help you click away to close menus/containers
  **/
-function useClickAway ({ reactAppId, clickable, open, setOpen }) {
+export default function useClickAway ({ reactAppId, clickable, open, setOpen }) {
   if (clickable.length < 1) throw Error('`clickable` property must contain at least one element id. Try passing an array of element ids to useClickAway({ clickable: [\'element1\', \'element2\'] })')
   if (clickable.some(e => e.includes('#'))) console.warn('Element ids in `clickable` array should not be prefixed with a `#` symbol.')
 
@@ -46,5 +46,3 @@ function useClickAway ({ reactAppId, clickable, open, setOpen }) {
     }
   }, [open])
 }
-
-export default useClickAway
