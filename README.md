@@ -92,6 +92,10 @@ You call `useClickAway` inside your function component and pass it an object wit
 - `reactAppId`: the id on the div that wraps your entire app (string)
 - `clickable`: the elements that are clickable (i.e. clicking them won't close the dropdown or container) (array of strings)
 
+See a live demo here:
+
+[![Edit react-use-click-away](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/reactuseclickaway-q3zng?fontsize=14)
+
 ## Installation
 
 You can install it using either of the following:
