@@ -20,14 +20,16 @@
   </p>
 </p>
 
+<div align="center">
+  <img alt="npm version" src="https://img.shields.io/npm/v/react-use-click-away.svg" />
+  <img slt="npm downloads" src="https://img.shields.io/npm/dm/react-use-click-away.svg"/>
+  <a href="https://github.com/jsjoeio/react-use-click-away/graphs/contributors/">
+    <img alt="number of contributors." src="https://img.shields.io/github/contributors/jsjoeio/react-use-click-away.svg" />
+  </a>
+  <img alt="license." src="https://img.shields.io/github/license/jsjoeio/react-use-click-away.svg" />
+</div>
+
 <hr>
-
-![npm version](https://img.shields.io/npm/v/react-use-click-away.svg)
-![npm](https://img.shields.io/npm/dm/react-use-click-away.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/jsjoeio/react-use-click-away.svg)](https://github.com/jsjoeio/react-use-click-away/graphs/contributors/)
-![GitHub](https://img.shields.io/github/license/jsjoeio/react-use-click-away.svg)
-
-
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
