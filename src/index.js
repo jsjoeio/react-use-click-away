@@ -15,7 +15,7 @@ export default function useClickAway ({ reactAppId, clickable, open, setOpen }) 
   }
 
   // If they passed the objects object
-  if(arguments[0]) {
+  if (arguments[0]) {
     const expectedProps = ['open', 'setOpen', 'reactAppId', 'clickable']
     // Check for all props
     for (let prop of expectedProps) {
