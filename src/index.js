@@ -9,8 +9,7 @@ import { useEffect } from 'react'
  **/
 export default function useClickAway ({ reactAppId, clickable, open, setOpen } = {}) {
   // Check for the expected props
-  if (arguments[0]) {
-    console.log('Checking props...')
+  if (Object.keys(arguments[0]).length < 4) {
     const expectedProps = ['open', 'setOpen', 'reactAppId', 'clickable']
     // Check for all props
     for (let prop of expectedProps) {
@@ -22,7 +21,7 @@ export default function useClickAway ({ reactAppId, clickable, open, setOpen } =
   }
 
   // Check the clickable prop
-  if (clickable.length < 1) {
+  if (!clickable || clickable.length < 1) {
     throw Error('`clickable` property must contain at least one element id. Try passing an array of element ids to useClickAway({ clickable: [\'element1\', \'element2\'] })')
   }
 
