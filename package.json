@@ -1,6 +1,6 @@
 {
   "name": "react-use-click-away",
-  "version": "1.0.9",
+  "version": "2.0.0",
   "description": "a custom React effect for clicking away to close dropdowns",
   "scripts": {
     "build": "webpack",
@@ -8,7 +8,7 @@
     "prepare": "npm run build && npm version patch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "main": "./lib/index.js",
+  "main": "./lib/index.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jsjoeio/react-use-click-away.git"
