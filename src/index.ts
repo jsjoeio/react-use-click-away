@@ -52,4 +52,3 @@ const useClickAway = ({reactAppId = "root", clickableElementIds, isActive, setIs
 };
 
 export default useClickAway;
-diff --git a/package.json b/package.json
